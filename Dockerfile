@@ -2,7 +2,7 @@ FROM python:3
 
 WORKDIR /data
 
-RUN pip install requirements.txt
+RUN pip install -r requirements.txt
 
 COPY . .
 
